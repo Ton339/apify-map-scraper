@@ -8,7 +8,7 @@ const client = new ApifyClient({
 });
 
 // State list ตรงนี้
-const stateList = ["นครราชสีมา", "อุบลราชธานี", "เชียงใหม่", "ศรีสะเกษ"];
+const stateList = ["นครศรีธรรมราช","บุรีรัมย์"];
 
 const baseInput = {
   countryCode: "th",
@@ -47,7 +47,7 @@ const baseInput = {
         locationQuery: `${state}, Thailand`,
         state: state,
       },
-      options: { memoryMbytes: 2048 },
+      options: { memoryMbytes: 4096 },
     }),
   );
 
