@@ -8,7 +8,7 @@ const client = new ApifyClient({
 });
 
 // State list ตรงนี้
-const stateList = ["ระยอง","พระนครศรีอยุธยา"];
+const stateList = ["นครราชสีมา", "อุบลราชธานี", "เชียงใหม่", "ศรีสะเกษ"];
 
 const baseInput = {
   countryCode: "th",
